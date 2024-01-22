@@ -1,19 +1,4 @@
 
-
-library(reshape2)
-library(ggplot2)
-library(data.table)
-library(ggpubr)
-library(RColorBrewer)
-library(ggthemes)
-library(dplyr)
-library(tidyr)
-library(gridExtra)
-library(metR)
-
-# Run the R scripts in the R/ folder with your custom functions:
-. <- lapply(list.files("R", full.names = TRUE), source)
-
 N=1000
 
 drug_number= 3
