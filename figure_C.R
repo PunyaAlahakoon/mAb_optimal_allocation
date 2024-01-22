@@ -1,19 +1,5 @@
 
-#Scenario 3:
-#different doses for prohylaxis and different proprtions for theraputic. Prohylaxis don't get theraputic treatments ;
 
-# variant number anc,ba1,ba1_1,ba2,ba45 = 1, 2, 3, 4, 5
-library(reshape2)
-library(ggplot2)
-library(data.table)
-library(ggpubr)
-library(RColorBrewer)
-library(ggthemes)
-library(dplyr)
-library(tidyr)
-library(viridis)
-# Run the R scripts in the R/ folder with your custom functions:
-. <- lapply(list.files("R", full.names = TRUE), source)
 
 N=1000
 
