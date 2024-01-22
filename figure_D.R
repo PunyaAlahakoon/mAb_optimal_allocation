@@ -1,6 +1,4 @@
 
-# Run the R scripts in the R/ folder with your custom functions:
-. <- lapply(list.files("R", full.names = TRUE), source)
 
 #load the data for efficacy with time 
 
