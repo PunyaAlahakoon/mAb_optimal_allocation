@@ -1,16 +1,3 @@
-# variant number anc,ba1,ba1_1,ba2,ba45 = 1, 2, 3, 4, 5
-library(reshape2)
-library(ggplot2)
-library(data.table)
-library(ggpubr)
-library(RColorBrewer)
-library(ggthemes)
-library(dplyr)
-library(tidyr)
-# Run the R scripts in the R/ folder with your custom functions:
-# load all functions
-. <- lapply(list.files("R", full.names = TRUE), source)
-
 
 
 #pop size
@@ -22,9 +9,6 @@ times=seq(0,179,by=1)
 
 
 others=1
-
-
-
 
 
 tspan=times
